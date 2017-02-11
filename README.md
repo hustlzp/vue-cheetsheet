@@ -9,7 +9,7 @@ npm install -g vue-cli
 vue init webpack my-project
 cd my-project
 npm install
-npm install leancloud-storage vue vue-router element-ui --save
+npm install leancloud-storage vue-router element-ui --save
 npm run dev
 ```
 
