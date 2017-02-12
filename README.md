@@ -13,6 +13,26 @@ npm install leancloud-storage vue-router element-ui --save
 npm run dev
 ```
 
+install Element:
+
+```js
+import ElementUI from 'element-ui'
+import 'element-ui/lib/theme-default/index.css'
+
+Vue.use(ElementUI)
+```
+
+init LeanCloud:
+
+```js
+import AV from 'leancloud-storage'
+
+AV.init({
+  appId: "",
+  appKey: ""
+})
+```
+
 ### Docs
 
 * [leancloud doc](https://leancloud.cn/docs/leanstorage-started-js.html)
