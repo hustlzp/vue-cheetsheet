@@ -21,7 +21,7 @@ npm run dev
 
 ### Example project
 
-[luoying-admin](https://coding.net/u/hustlzp/p/luoying-admin)
+* [luoying-admin](https://coding.net/u/hustlzp/p/luoying-admin)
 
 ## .vue
 
