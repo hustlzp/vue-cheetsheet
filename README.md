@@ -15,11 +15,9 @@ npm run dev
 
 ### Docs
 
-[leancloud doc](https://leancloud.cn/docs/leanstorage-started-js.html)
-
-[Element doc](http://element.eleme.io/#/zh-CN/component/quickstart)
-
-[Vue doc](https://vuejs.org/v2/guide/)
+* [leancloud doc](https://leancloud.cn/docs/leanstorage-started-js.html)
+* [Element doc](http://element.eleme.io/#/zh-CN/component/quickstart)
+* [Vue doc](https://vuejs.org/v2/guide/)
 
 ### Example project
 
