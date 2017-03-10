@@ -5,7 +5,7 @@
 Use [vue-cli](https://github.com/vuejs/vue-cli) to generate project.
 
 ```
-npm install -g vue-cli
+sudo npm install -g vue-cli
 vue init webpack my-project
 cd my-project
 npm install
