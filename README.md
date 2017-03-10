@@ -41,7 +41,7 @@ AV.init({
 
 ### Example project
 
-* [luoying-admin](https://coding.net/u/hustlzp/p/luoying-admin)
+* [gushu-admin](https://coding.net/u/hustlzp/p/gushu-admin)
 
 ## .vue
 
