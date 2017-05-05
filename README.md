@@ -33,6 +33,8 @@ AV.init({
 })
 ```
 
+add `fabfile` to project.
+
 ### Docs
 
 * [leancloud doc](https://leancloud.cn/docs/leanstorage-started-js.html)
