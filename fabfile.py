@@ -7,5 +7,5 @@ def deploy():
     env.host_string = "user@server"
     with cd('/path/to/project'):
         run('git pull')
-        run('npm run install')
+        run('npm install')
         run('npm run build')
