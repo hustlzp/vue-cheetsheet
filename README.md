@@ -109,6 +109,29 @@ a {
 <span v-for="n in 10" :key="n">{{ n }}</span>
 ```
 
+## Macro Syntax
+
+```html
+<template>
+    <div class="item">
+        
+    </div>
+</template>
+
+<script>
+    export default {
+        name: 'Item',
+        props: ['paramA'],
+        methods: {
+        }
+    }
+</script>
+
+<style scoped>
+
+</style>
+```
+
 ## Data Change
 
 Array:
