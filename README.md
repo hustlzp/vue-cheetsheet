@@ -45,7 +45,7 @@ add `fabfile` to project.
 
 * [gushu-admin](https://coding.net/u/hustlzp/p/gushu-admin)
 
-## .vue
+## Page Template
 
 ```vue
 <template>
@@ -78,6 +78,29 @@ a {
 </style>
 ```
 
+## Macro Template
+
+```html
+<template>
+    <div class="item">
+        
+    </div>
+</template>
+
+<script>
+    export default {
+        name: 'Item',
+        props: ['paramA'],
+        methods: {
+        }
+    }
+</script>
+
+<style scoped>
+
+</style>
+```
+
 ## Template Syntax
 
 ```html
@@ -107,29 +130,6 @@ a {
 </li>
 
 <span v-for="n in 10" :key="n">{{ n }}</span>
-```
-
-## Macro Syntax
-
-```html
-<template>
-    <div class="item">
-        
-    </div>
-</template>
-
-<script>
-    export default {
-        name: 'Item',
-        props: ['paramA'],
-        methods: {
-        }
-    }
-</script>
-
-<style scoped>
-
-</style>
 ```
 
 ## Data Change
