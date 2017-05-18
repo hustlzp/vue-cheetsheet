@@ -38,7 +38,7 @@ add `fabfile`, `SignIn.vue` to project.
 add codes below to `router/index.js`:
 
 ```js
-
+import AV from 'leancloud-storage'
 import SignIn from 'components/SignIn'
 
 const router = new Router({
