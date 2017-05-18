@@ -33,7 +33,30 @@ AV.init({
 })
 ```
 
-add `fabfile` to project.
+add `fabfile`, `SignIn.vue` to project.
+
+add codes below to `router/index.js`:
+
+```js
+
+import SignIn from 'components/SignIn'
+
+const router = new Router({
+  ...
+})
+
+router.beforeEach((to, from, next) => {
+  if ((!AV.User.current() || !AV.User.current().get('isAdmin')) && to.name !== "signIn") {
+    next({ path: '/signin' })
+  } else if (AV.User.current() && AV.User.current().get('isAdmin') && to.name === "signIn") {
+    next('/')
+  } else {
+    next()
+  }
+})
+
+export default router
+```
 
 ### Docs
 
