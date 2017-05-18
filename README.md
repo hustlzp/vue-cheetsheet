@@ -42,7 +42,14 @@ add codes below to `router/index.js`:
 import SignIn from 'components/SignIn'
 
 const router = new Router({
-  ...
+  routes: [
+    {
+      path: '/signin',
+      name: 'signIn',
+      component: SignIn
+    },
+    ...
+  ]
 })
 
 router.beforeEach((to, from, next) => {
