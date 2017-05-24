@@ -131,6 +131,19 @@ a {
 </style>
 ```
 
+## Import Component
+
+```js
+import ChildComponent from './macros/ChildComponent.vue'
+
+export default {
+  name: 'home',
+  components: {
+    'child-component': ChildComponent
+  }
+}
+```
+
 ## Template Syntax
 
 ```html
