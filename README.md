@@ -9,7 +9,7 @@ sudo npm install -g vue-cli
 vue init webpack my-project
 cd my-project
 npm install
-npm install leancloud-storage vue-router element-ui --save
+npm install leancloud-storage element-ui normalize.css less less-loader
 npm run dev
 ```
 
