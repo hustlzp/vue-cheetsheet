@@ -13,9 +13,15 @@ npm install leancloud-storage element-ui normalize.css less less-loader
 npm run dev
 ```
 
+Useful libs:
+
+* [axios](https://github.com/mzabriskie/axios)
+* [vue-analytics](https://github.com/MatteoGabriele/vue-analytics)
+
 install Element:
 
 ```js
+import 'normalize.css'
 import ElementUI from 'element-ui'
 import 'element-ui/lib/theme-default/index.css'
 
