@@ -127,6 +127,10 @@ a {
     export default {
         name: 'Item',
         props: ['paramA'],
+        data () {
+            return {
+            }
+        },
         methods: {
         }
     }
