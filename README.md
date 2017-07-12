@@ -107,10 +107,8 @@ export default {
 }
 </script>
 
-<style scoped>
-a {
-  color: #42b983;
-}
+<style scoped lang="less">
+
 </style>
 ```
 
@@ -118,25 +116,28 @@ a {
 
 ```html
 <template>
-    <div class="item">
-        
-    </div>
+  <div class="item">
+  
+  </div>
 </template>
 
 <script>
-    export default {
-        name: 'Item',
-        props: ['paramA'],
-        data () {
-            return {
-            }
-        },
-        methods: {
-        }
+export default {
+  name: 'Item',
+  created() {
+    // do something
+  },
+  props: ['paramA'],
+  data() {
+    return {
     }
+  },
+  methods: {
+  }
+}
 </script>
 
-<style scoped>
+<style scoped lang="less">
 
 </style>
 ```
