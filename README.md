@@ -17,6 +17,8 @@ Useful libs:
 
 * [axios](https://github.com/mzabriskie/axios)
 * [vue-analytics](https://github.com/MatteoGabriele/vue-analytics)
+* [vue-amap](https://github.com/ElemeFE/vue-amap)
+* [Vue.Draggable](https://github.com/SortableJS/Vue.Draggable)
 
 install Element:
 
