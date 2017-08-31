@@ -19,6 +19,7 @@ Useful libs:
 * [vue-analytics](https://github.com/MatteoGabriele/vue-analytics)
 * [vue-amap](https://github.com/ElemeFE/vue-amap)
 * [Vue.Draggable](https://github.com/SortableJS/Vue.Draggable)
+* [vue-meta](https://github.com/declandewet/vue-meta)
 
 install Element:
 
